@@ -1,0 +1,42 @@
+.box40{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.myFooter ul>li>a{
+    color: white;
+}
+
+.myFooter div>a{
+    color: white;
+}
+
+
+/* Ẩn menu dropdown mặc định */
+.dropdown-menu {
+    display: none;
+    position: absolute; /* Giữ menu không chiếm không gian layout */
+    background-color: #fff; /* Nền trắng */
+    min-width: 100%; /* Đảm bảo chiều rộng của menu con */
+    z-index: 1000; /* Đảm bảo menu nằm trên các phần tử khác */
+}
+
+/* Hiển thị menu khi rê chuột vào */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hiển thị dropdown khi được click hoặc tập trung */
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+/* Đổi màu nền khi rê chuột vào từng mục */
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+

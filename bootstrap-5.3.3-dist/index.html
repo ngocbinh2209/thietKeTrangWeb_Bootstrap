@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/backTop.css">
+</head>
+
+<body>
+    <!-- Phần header  -->
+    <section class="myHeader">
+        <!-- py-3 đẩy logo xuống 3 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 py-3">
+                    <!-- thêm logo vô -->
+                    <img src="/img/logo.png" alt="logo">
+                </div>
+                <div class="col-md-4 mx-auto py-5">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Từ khóa tìm kiếm"
+                            aria-label="Từ khóa tìm kiếm" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3 py-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="fs-3 text-danger">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">Tư Vẫn hỗ trợ <br>
+                                    <strong class="text-danger"><a href="" style="color: red;"> 0366167909</a></strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="fs-3 text-danger">
+                                        <i class="fa-regular fa-circle-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 dropdown">Xin Chào! <br>
+                                    <strong class="text-danger"><a class="nav-link dropdown-toggle " href="#" role="button" style="color: red;" data-bs-toggle="dropdown" 
+                                        aria-expanded="false">Đăng nhập </a></strong>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Đăng kí</a></li>
+                                        <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                                        <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                                        <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-5">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#" class="position-relative">
+                                <span class=" fs-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="position-relative">
+                                <span class=" fs-2">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="position-relative">
+                                <span class=" fs-2">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </span>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hết Header -->
+    <!-- Phần Menu -->
+    <section class="myMainMenu bg-danger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-white">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle m-3 text-white" href="#" role="button" data-bs-toggle="dropdown" 
+                        aria-expanded="false">Danh mục sản phẩm </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Nước hoa nam</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nữ</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nam</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nữ</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nam</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nữ</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nam</a></li>
+                            <li><a class="dropdown-item" href="#">Nước hoa nữ</a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg bg-danger">
+                        <div class="container-fluid">
+                            <!-- d-none dùng để ẩn thông tin -->
+                            <a class="navbar-brand" href="#">|</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto ">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sản phẩm
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black" href="#">Tin tức</a></li>
+                                            <li><a class="dropdown-item text-black" href="#">Tuyển dụng</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-black" href="#">Liên hệ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hết Menu -->
+
+    <section class="myMainContent my-3">
+        <div class="container">
+            <div class="slider mb-3">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="/img/leChuan.gif" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="/img/anhdaidien.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/html_Css_Js.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="product-list mb-3">
+                <div class="product_title border-bottom">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <Strong class="bg-danger text-white">Thời Trang Nam</Strong>
+                        </div>
+                        <div class="col-md-8 text-end">
+                            <a href="">Thời trang nữ</a>
+                            <a href="">Thời trang nữ</a>
+                            <a href="">Thời trang nữ</a>
+                            <a href="">Thời trang nữ</a>
+                            <a href="">Thời trang nữ</a>
+                            <a href="">Thời trang nữ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product_list-s my-3">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="/img/logo.png" alt="" class="img-fluid w-100">
+                            <h3>Tên Sản Phẩm</h3>
+                            <h4>2000$</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Phần Footer -->
+    <section class="myFooter bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>VĂN PHÒNG GIAO DỊCH</h4>
+                    <ul class="list-menu">
+                        <li class="list-menu"><a class="text-white" href="" title="">Trang chủ</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Giới thiệu</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Sản phẩm</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Tin mới nhất</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Câu hỏi thường gặp</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Tuyển dụng</a></li>
+                        <li class="list-menu"><a class="text-white" href="" title="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>VỀ CHÚNG TÔI</h4>
+                    <ul class="list-menu">
+                        <li class="list-menu"><a href="" title="">Trang chủ</a></li>
+                        <li class="list-menu"><a href="" title="">Giới thiệu</a></li>
+                        <li class="list-menu"><a href="" title="">Sản phẩm</a></li>
+                        <li class="list-menu"><a href="" title="">Tin mới nhất</a></li>
+                        <li class="list-menu"><a href="" title="">Câu hỏi thường gặp</a></li>
+                        <li class="list-menu"><a href="" title="">Tuyển dụng</a></li>
+                        <li class="list-menu"><a href="" title="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>CHÍNH SÁCH BÁN HÀNG</h4>
+                    <ul class="list-menu">
+                        <li class="list-menu"><a href="" title="">Trang chủ</a></li>
+                        <li class="list-menu"><a href="" title="">Giới thiệu</a></li>
+                        <li class="list-menu"><a href="" title="">Sản phẩm</a></li>
+                        <li class="list-menu"><a href="" title="">Tin mới nhất</a></li>
+                        <li class="list-menu"><a href="" title="">Câu hỏi thường gặp</a></li>
+                        <li class="list-menu"><a href="" title="">Tuyển dụng</a></li>
+                        <li class="list-menu"><a href="" title="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>THEO DÕI CHÚNG TÔI</h4>
+                    <ul class="list-menu">
+                        <li class="list-menu"><a href="" title="">Trang chủ</a></li>
+                        <li class="list-menu"><a href="" title="">Giới thiệu</a></li>
+                        <li class="list-menu"><a href="" title="">Sản phẩm</a></li>
+                        <li class="list-menu"><a href="" title="">Tin mới nhất</a></li>
+                        <li class="list-menu"><a href="" title="">Câu hỏi thường gặp</a></li>
+                        <li class="list-menu"><a href="" title="">Tuyển dụng</a></li>
+                        <li class="list-menu"><a href="" title="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>THIÊN ĐƯỜNG NƯỚC HOA NGỌC BÌNH</h4>
+                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum hic pariatur, quod
+                        dolore
+                        laboriosam
+                        molestiae atque modi debitis soluta tenetur libero aut nobis veritatis, mollitia doloribus iusto
+                        explicabo! Eos, odio.</p>
+                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum hic pariatur, quod
+                        dolore
+                        laboriosam
+                        molestiae atque modi debitis soluta tenetur libero aut nobis veritatis, mollitia doloribus iusto
+                        explicabo! Eos, odio.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>NHẬN TIN KHUYẾN MÃI</h4>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Nhập email của bạn"
+                            aria-label="Nhập email của bạn" aria-describedby="basic-addon2">
+                        <span class="input-group-text text-white bg-danger" id="basic-addon2">Đăng Kí</span>
+                    </div>
+                    <div>
+                        <span class="box40 border border-danger mr-4">
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <span class="box40 border border-danger mr-4">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </span>
+                        <span class="box40 border border-danger mr-4">
+                            <i class="fa-brands fa-google"></i>
+                        </span>
+                        <span class="box40 border border-danger text-danger bg-white">
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    Bản quyền thuộc về Mai Ngọc Bình
+                </div>
+                <div class="col-md-6 text-end">
+                    <a class="col-md-2,4">Trang chủ</a>
+                    <a class="col-md-2,4">Giới thiệu</a>
+                    <a class="col-md-2,4">Sản phẩm</a>
+                    <a class="col-md-2,4">Tin mới nhất</a>
+                    <a class="col-md-2,4">Câu hỏi thường gặp</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Hết Footer -->
+    <div id="backTop">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/backTop.js"></script>
+</body>
+
+</html>
